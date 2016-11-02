@@ -9,6 +9,8 @@ ul {
 	width: 100%;
 	margin:0;
 	padding: 0;
+	overflow: hidden;
+	text-align: center;
 }
 
 li {
@@ -30,4 +32,14 @@ button.active {
 	border-style: none;
 }
 
-
+.text1
+ {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#0F3, #F00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+ }
