@@ -1,0 +1,35 @@
+body {
+	background:url(http://wallpapercave.com/wp/SdXflfk.jpg)center center no-repeat fixed;
+}
+
+h1 {
+	color: darkred;
+	text-align: center;
+}
+
+div {
+	display: block;
+}
+
+#products {
+	border: solid;
+	border-color: white;
+	height: 50px;
+	margin-bottom: 15px;
+
+}
+
+#sponsers {
+	border: solid;
+	border-color: red;
+	height: 50px;
+	margin-bottom: 15px;
+
+}
+
+#gallery {
+	border: solid;
+	border-color: blue;
+	height: 50px;
+
+}
