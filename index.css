@@ -35,11 +35,11 @@ button.active {
 .text1
  {
   font-size: 40px;
-  background: -webkit-linear-gradient(#0F3, #F00);
+  background: -webkit-linear-gradient(#010105, #2822D2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 50%;
-  left: 50%;
-  
+  left: 10%;
+
  }
