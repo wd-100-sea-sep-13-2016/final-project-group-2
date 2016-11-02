@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	color: darkred;
+	color: rgb(192,6,6);
 	text-align: center;
 }
 
@@ -14,22 +14,22 @@ div {
 #products {
 	border: solid;
 	border-color: white;
-	height: 50px;
-	margin-bottom: 15px;
+	height: 150px;
+	margin-bottom: 27px;
 
 }
 
 #sponsers {
 	border: solid;
 	border-color: red;
-	height: 50px;
-	margin-bottom: 15px;
+	height: 150px;
+	margin-bottom: 27px;
 
 }
 
 #gallery {
 	border: solid;
 	border-color: blue;
-	height: 50px;
+	height: 150px;
 
 }
