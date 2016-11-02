@@ -3,11 +3,13 @@ body {
 }
 
 ul {
+
 	background-color: rgb(49,48,48);
 	list-style-type: none;
 	position: fixed;
-	width: 100%;
-	margin:0;
+	width: 50%;
+	margin-left:25%;
+	margin-right: 25%;
 	padding: 0;
 	overflow: hidden;
 	text-align: center;
@@ -32,14 +34,19 @@ button.active {
 	border-style: none;
 }
 
-.text1
- {
-  font-size: 40px;
-  background: -webkit-linear-gradient(#010105, #2822D2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 50%;
-  left: 10%;
+h1 {
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	color: white;
 
- }
+}
+
+.q {
+	color: yellow;
+}
+
+#wings {
+	font-style: italic;
+	color: red;
+}
