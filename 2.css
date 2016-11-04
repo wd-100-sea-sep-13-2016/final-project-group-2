@@ -7,7 +7,7 @@ h1 {
 }
 
 #header-1 {
-	margin-left: 500px;
+	margin-left: 400px;
 	background: linear-gradient(to right,);
 	background-clip: text;
 	text-fill-color: transparent;
@@ -19,6 +19,7 @@ h1 {
 	margin-left: 150px;
 	margin-top: 50px;
 	border: outset;
+	z-index: 1;
 }
 
 #nav-bar {
@@ -51,4 +52,22 @@ button {
 
 button.active {
 	border-style: none;
+}
+
+#sidebar-left {
+	width: 100px;
+	height: 700px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	float: top;
+}
+
+#sidebar-right {
+	width: 100px;
+	height: 700px;
+	background-color: white;
+	float: right;
+	display: inline-block;
+	float: top;
 }
