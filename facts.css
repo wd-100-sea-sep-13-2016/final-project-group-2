@@ -1,35 +1,73 @@
 body {
-background:url(http://wallpapercave.com/wp/SdXflfk.jpg)center center no-repeat fixed;
+	background-color: black;
 }
 
 h1 {
-color: rgb(192,6,6);
-text-align: center;
+	color: white;
 }
 
-div {
-display: block;
-}
-
-#products {
-border: solid;
-border-color: white;
-height: 150px;
-margin-bottom: 27px;
+#header-1 {
+	margin-left: 400px;
+	background: linear-gradient(to right,);
+	background-clip: text;
+	text-fill-color: transparent;
+	display: inline-block;
 
 }
 
-#sponsers {
-border: solid;
-border-color: red;
-height: 150px;
-margin-bottom: 27px;
+#background-image {
+	margin-left: 150px;
+	margin-top: 50px;
+	border: outset;
+	z-index: 1;
+}
+
+#nav-bar {
+	border: outset;
+	background-color: rgb(49,48,48);
+	list-style-type: none;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
 
 }
 
-#gallery {
-border: solid;
-border-color: blue;
-height: 150px;
+.nav-bar-list-items {
+	display: inline;
+	font-size: x-large;
+}
 
+a {
+	color: rgb(172,28,28);
+	list-style-type: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+button.active {
+	border-style: none;
+}
+
+#sidebar-left {
+	width: 100px;
+	height: 700px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	float: top;
+}
+
+#sidebar-right {
+	width: 100px;
+	height: 700px;
+	background-color: white;
+	float: right;
+	display: inline-block;
+	float: top;
 }
